@@ -1,0 +1,9 @@
+wsl
+cd OneDrive/Desktop/ML_Dead_Reckoning
+sudo apt install
+python3 -m venv ~/inekf_env
+source ~/inekf_env/bin/activate
+pip install scipy pandas numpy
+
+python3 inekf_baseline_euroc.py
+python3 inekf_mocap1.py

@@ -1,0 +1,7 @@
+__pycache__/
+*.pth
+*.xlsx
+Dataset 1 (Asending Square Pattern)/
+Dataset 2 (Upward Spiral Pattern)/
+EuRoC MAV dataset/
+.DS_Store
