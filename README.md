@@ -11,3 +11,7 @@ Project Overview:
 Accurate state and velocity estimation remains a fundamental challenge in autonomous navigation, particularly in GNSS-denied environments where dead reckoning relies exclusively on onboard inertial measurement units (IMUs). While traditional double-integration causes sensor errors to compound exponentially into severe trajectory drift, unconstrained deep learning models frequently violate physical laws during aggressive manoeuvres.
 
 This project develops a Physics-Informed Neural Network integrated with a Gated Recurrent Unit (PINN-GRU) architecture. By embedding multi-objective physical constraints directly into the network's training loop—specifically baseline kinematic MSE, heading alignment, kinetic energy preservation, and lateral cross-product constraints—the framework successfully restricts cumulative integration drift without requiring exhaustive platform calibration.
+
+License:
+
+This work is submitted in partial fulfilment of the requirements for the degree of MSc Autonomous Vehicle Dynamics and Control at Cranfield University (2026). All rights reserved.
